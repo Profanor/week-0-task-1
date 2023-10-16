@@ -1,0 +1,287 @@
+/* selects all elements in the root html*/ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* styles for the body */
+body {
+    background-color: rgb(230, 222, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+/*styles for the main container div*/
+.parent_container {
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 0.5em;
+    text-align: center;
+    width: 700px;
+}
+.logo {
+    width: 100%;
+}
+.logo-image {
+    background-image: url(/frontend/Images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 220px;
+    position: relative;
+    height: 40px;
+    margin-top: 20px;
+}
+.first-div {
+    background-image: url(/frontend/Images/div1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.first-div h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    line-height: 35px;
+    margin-top: -60px;
+    text-align: center;
+}
+.first-text {
+    margin: 100px auto;
+    width: 250px;
+}
+.button {
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 30px;
+    height: 40px;
+    width: 100px;
+}
+.button2 {
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgreen;
+    color: green;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 30px auto;
+    height: 40px;
+    width: 100px;
+}
+.button3 {
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+    color: green;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+}
+.flex {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto;
+}
+.flex2 {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 195px;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 70px 55px;
+}
+.second-div {
+    height: 450px;
+    width: 100%;
+}
+.second-div h2 {
+    text-align: center;
+    padding: 20px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+.sub-div1 {
+    background-image: url(/frontend/Images/subdiv1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+    margin-left: 16px;
+    width: 150px;
+    height: 200px;
+}
+.sub-div2 {
+    background-image: url(/frontend/Images/subdiv2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+    margin-left: 16px;
+    width: 150px;
+    height: 200px;
+}
+.sub-div3 {
+    background-image: url(/frontend/Images/subdiv3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+    margin-left: 16px;
+    width: 150px;
+    height: 200px;
+}
+.third-div {
+    background-image: url(/frontend/Images/div3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.About-us {
+    margin-top: -30px;
+}
+.About-us h3 {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+.text-div1 {
+    color: white;
+    font-size: 12px;
+    height: 240px;
+    width: 200px;
+}
+.text-div2 {
+    color: white;
+    font-size: 12px;
+    height: 240px;
+    width: 200px;
+}
+.text-div3 {
+    color: white;
+    font-size: 12px;
+    height: 240px;
+    width: 200px;
+}
+.fourth-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+.fourth-div h4 {
+    margin-top: 30px auto;
+    padding: 25px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+.fifth-div {
+    align-items: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+.fifth-div h5{
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin: 15px auto;
+    text-align: center;
+}
+.sub5-div {
+    background-image: url(/frontend/Images/subdiv5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    margin: 10px auto;
+    width: 400px;
+}
+.house-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    justify-content: space-between;
+}
+.house-2 {
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    justify-content: space-between;
+    margin: 20px;
+}
+.sub-div4 {
+    border: 1px solid  lightgreen;
+    background-image: url(/frontend/Images/subdiv4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    width: 250px;
+    height: 100px;
+}
+.last-div {
+    background-image: url(/frontend/Images/div6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px auto;
+    margin-bottom: 2px;
+    height: 70px;
+    width: 100%;
+}
+.decor {
+    background-image: url(/frontend/Images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 280px;
+    margin-top: -28px;
+    position: relative;
+    height: 30px;
+    width: 35px;
+}
+.decor2 {
+    background-image: url(/frontend/Images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 390px;
+    position: relative;
+    margin-top: -10px;
+    height: 30px;
+    width: 35px;
+}
